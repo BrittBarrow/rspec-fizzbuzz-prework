@@ -4,8 +4,8 @@ def fizzbuzz (int)
   elsif int % 5 == 0
     "Buzz"
   elsif ((int % 3 == 0) && (int % 5 ==0))
-    returns "FizzBuzz"
+    "FizzBuzz"
   else
-    puts "nil"
+    return "nil"
   end
 end
